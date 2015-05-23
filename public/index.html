@@ -1,0 +1,44 @@
+<!-- HTML 5 Document Type declaration -->
+<!DOCTYPE html>
+
+<!-- AngularJS app declaration (ng-app) -->
+<html ng-app="clementineApp">
+
+	<head>
+	
+		<!-- Title of your application goes here -->
+		<title>Clementine.js - A beginner level MEAN stack application</title>
+	
+	</head>
+
+	<body>
+
+		<!-- This div contains the Clementine logo -->
+		<div class="container">
+			Clementine.js
+		</div>
+	
+		<!-- This div will contain our button and nbr of button clicks -->
+		<!-- ng-controller tells Angular which controller to use within this HTML element (aka this div element) -->
+		<div class="container" ng-controller="clickController">
+			
+			<!-- p tag will include the dynamic Angular value that shows number of times button is clicked -->
+			<!-- The {{ clicks }} syntax is Angular's way of knowing that a dynamic value should be stored within the curly braces-->
+			<p>You have clicked the button {{ clicks }} times</p>
+		
+			<br />
+			
+			<!-- ng-click tells Angular what controller function to run when the button is clicked -->
+			<button ng-click="addClick()">Click Me!</button>
+		
+		</div>
+	
+		<!-- Include AngularJS script from Google CDN (content delivery network) -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		
+		<!-- Include clickController file -->
+		<script type="text/javascript" src="/controllers/clickController.client.js"></script>
+	
+	</body>
+
+</html>

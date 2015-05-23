@@ -1,0 +1,23 @@
+{
+  "name": "clementinejs-beginner",
+  "version": "1.0.0",
+  "description": "A beginner-level MEAN stack application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnstonbl01/clementinejs-beginner.git"
+  },
+  "author": "Blake Johnston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnstonbl01/clementinejs-beginner/issues"
+  },
+  "homepage": "https://github.com/johnstonbl01/clementinejs-beginner#readme",
+  "dependencies": {
+    "express": "^4.12.4",
+    "mongodb": "^2.0.33"
+  }
+}
