@@ -2,14 +2,33 @@
 
 (function () {
 	angular
-		.module('clementineApp', [])
-		.controller('clickController', function ($scope) {
+		.module('clementineApp', ['ngResource'])
+		.controller('clickController',
+			['$scope',
+			'$resource',
+			function ($scope, $resource) {
 
-			$scope.clicks = 0;
+				var Click = $resource('/api/clicks');
 
-			$scope.addClick = function () {
-				$scope.clicks += 1;
-			};
+				$scope.getClicks = function () {
+					Click.query(function (results) {
+						$scope.clicks = results[0].clicks;
+					});
+				};
 
-		});
+				$scope.getClicks();
+
+				$scope.addClick = function () {
+					Click.save(function () {
+						$scope.getClicks();
+					});
+				};
+
+				$scope.resetClicks = function () {
+					Click.remove(function () {
+						$scope.getClicks();
+					});
+				};
+
+		}]);
 })();
