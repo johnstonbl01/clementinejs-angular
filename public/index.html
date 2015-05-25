@@ -8,6 +8,9 @@
 	
 		<!-- Title of your application goes here -->
 		<title>Clementine.js - A beginner level MEAN stack application</title>
+
+		<link href="http://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" type="text/css">
+		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
 	
 	</head>
 
@@ -16,7 +19,8 @@
 		<!-- This div contains the Clementine logo -->
 		<div class="container">
 			<img src="/public/img/clementine_150.png" />
-			Clementine.js
+			<br />
+			<p class="clementine-text">Clementine.js</p>
 		</div>
 	
 		<!-- This div will contain our button and nbr of button clicks -->
@@ -25,15 +29,15 @@
 			
 			<!-- p tag will include the dynamic Angular value that shows number of times button is clicked -->
 			<!-- The {{ clicks }} syntax is Angular's way of knowing that a dynamic value should be stored within the curly braces-->
-			<p>You have clicked the button {{ clicks }} times</p>
+			<p>You have clicked the button {{ clicks }} times.</p>
 		
 			<br />
-			
-			<!-- ng-click tells Angular what controller function to run when the button is clicked -->
-			<button type="submit" ng-click="addClick()">Click Me!</button>
+			<div class="btn-container">
+				<!-- ng-click tells Angular what controller function to run when the button is clicked -->
+				<button type="submit" ng-click="addClick()" class="btn">CLICK ME!</button>
 
-			<button ng-click="resetClicks()">Reset Clicks</button>
-		
+				<button ng-click="resetClicks()" class="btn btn-delete">RESET</button>
+			</div>
 		</div>
 	
 		<!-- Include AngularJS script from Google CDN (content delivery network) -->

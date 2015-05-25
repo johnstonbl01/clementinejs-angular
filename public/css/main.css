@@ -1,3 +1,59 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	margin: 8px 0 0 0;
+}
+
+.container p {
+	text-align: center;
+	padding: 0;
+}
+
+/****** Logo Div Styling ******/
+
 img {
-	margin: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+.clementine-text {
+	padding: 0;
+	margin: -25px 0 0 0;
+	font-weight: 500;
+	font-size: 60px;
+	color: #FFA000;
+}
+
+/****** Click Styling ******/
+
+.btn-container {
+	margin: -10px auto 0 auto;
+	text-align: center;
+}
+
+.btn {
+	margin: 0 8px;
+	color: white;
+	background-color: #00BCD4;
+	display: inline-block;
+	border: 0;
+	font-size: 14px;
+	border-radius: 3px;
+	padding: 10px 5px;
+	width: 100px;
+	font-weight: 500;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-delete {
+	background-color: #ECEFF1;
+	color: #212121;
 }
