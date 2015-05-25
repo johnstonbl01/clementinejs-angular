@@ -8,8 +8,10 @@
 	
 		<!-- Title of your application goes here -->
 		<title>Clementine.js - A beginner level MEAN stack application</title>
-
+		
+		<!-- Link to Google CDN for Roboto font -->
 		<link href="http://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" type="text/css">
+		<!-- Link to CSS file -->
 		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
 	
 	</head>
@@ -18,6 +20,7 @@
 
 		<!-- This div contains the Clementine logo -->
 		<div class="container">
+			<!-- Clementine logo -->
 			<img src="/public/img/clementine_150.png" />
 			<br />
 			<p class="clementine-text">Clementine.js</p>
@@ -32,10 +35,10 @@
 			<p>You have clicked the button {{ clicks }} times.</p>
 		
 			<br />
+			<!-- Smaller button div will allow centering of buttons on the page -->
 			<div class="btn-container">
 				<!-- ng-click tells Angular what controller function to run when the button is clicked -->
 				<button type="submit" ng-click="addClick()" class="btn">CLICK ME!</button>
-
 				<button ng-click="resetClicks()" class="btn btn-delete">RESET</button>
 			</div>
 		</div>
@@ -44,7 +47,7 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 
 		<!-- Include AngularJS resource script from Google CDN (content delivery network) -->
-		<!-- This allows the use of RESTful APIs -->
+		<!-- This allows the use of RESTful APIs. In this case, we'll use this to pass information from the database to the app -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-resource.min.js"></script>
 		
 		<!-- Include clickController file -->
