@@ -12,8 +12,7 @@
 			// Define $scope & $resource as dependencies for this controller
 			['$scope',
 			'$resource',
-			// Inject the $scope and $function objects into this controller...
-			// for use in code below
+
 			function ($scope, $resource) {
 
 				// Bind our $resource object to the Click variable and the API URL
