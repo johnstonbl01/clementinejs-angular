@@ -34,13 +34,22 @@ function ClickHandler (db) {
 
 						// Insert a new document into the database
 						// This traditionally only happens the first time the application is run
-						clicks.insert({ 'clicks': 0 }, function (error, newdoc) {
+						clicks.insert({ 'clicks': 0 }, function (err) {
+							// If there is an error, throw an error
 							if (err) { throw err; }
 
-							// Push the result of the insertion to the clickResults array
-							clickResults.push(newdoc);
-							// Send the results in JSON format back to the client
-							res.json(clickResults);
+							// Find the newly inserted document
+							// Uses same findOne parameters as query above
+							clicks.findOne({}, {'_id': false}, function (err, doc) {
+								// If there is an error, throw an error
+								if (err) { throw err; }
+
+								// Push the resulting document to the clickResults array
+								clickResults.push(doc);
+								// Send the results in JSON format back to the client
+								res.json(clickResults);
+							});
+
 						});
 
 					}
