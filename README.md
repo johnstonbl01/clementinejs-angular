@@ -83,3 +83,7 @@ Next, open your browser and enter `http://localhost:3000/`. Congrats, you're up 
 #### Tutorial
 
 You can find a complete step-by-step tutorial on how to create this app from the ground up [here](docs_tutorial.md).
+
+## License
+
+MIT License. [Click here for more information.](LICENSE.md)
