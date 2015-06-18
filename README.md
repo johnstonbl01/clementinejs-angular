@@ -1,5 +1,11 @@
 ### Beginner Boilerplate
 
+#### Version Repositories
+
+[Clementine.js Standard Repo](https://github.com/johnstonbl01/clementinejs)
+[Clementine.js Bare Repo](https://github.com/johnstonbl01/clementinejs-bare)
+[Clementine.js Beginner Repo](https://github.com/johnstonbl01/clementinejs-beginner)
+
 #### About
 
 The beginner version of Clementine.js is meant for those that are new to coding. This is a stripped down version of the boilerplate with fewer featured libaries, fully commented code and a tutorial.
@@ -65,9 +71,8 @@ MongoDB has great installation instructutions for MAC OSX, Windows and Linux. [S
 
 To install the boilerplate, first create a new directory for your project and cd into that directory from the terminal. Then type:
 ```
-https://github.com/johnstonbl01/clementinejs-beginner.git .
+npm install clementinejs-beginner
 ```
-_Note:_ The period at the end is important. If the period is excluded, git will create a new directory named clementinejs-beginner in your current directory.
 
 ##### Starting the App
 
@@ -82,7 +87,7 @@ Next, open your browser and enter `http://localhost:3000/`. Congrats, you're up 
 
 #### Tutorial
 
-You can find a complete step-by-step tutorial on how to create this app from the ground up [here](docs_tutorial.md).
+You can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://johnstonbl01.github.io/clementinejs/tutorial/tutorial.html).
 
 ## License
 
