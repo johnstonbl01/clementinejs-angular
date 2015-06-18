@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A beginner-level MEAN stack application.",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnstonbl01/clementinejs-beginner.git"
@@ -15,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/johnstonbl01/clementinejs-beginner/issues"
   },
-  "homepage": "https://github.com/johnstonbl01/clementinejs-beginner#readme",
+  "homepage": "http://johnstonbl01.github.io/clementinejs/",
   "dependencies": {
     "express": "^4.12.4",
     "mongodb": "^2.0.33"
