@@ -66,8 +66,10 @@ MongoDB has great installation instructutions for MAC OSX, Windows and Linux. [S
 ##### Clementine.js
 
 To install the boilerplate, first create a new directory for your project and cd into that directory from the terminal. Then type:
-```
-npm install clementinejs-beginner
+
+```bash
+$ npm install clementinejs-beginner
+$ cd clementinejs-beginner
 ```
 
 ##### Starting the App
