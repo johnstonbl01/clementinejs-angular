@@ -1,6 +1,6 @@
 {
   "name": "clementinejs-beginner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beginner-level MEAN stack application.",
   "main": "server.js",
   "repository": {
