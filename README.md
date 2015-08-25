@@ -33,7 +33,7 @@ If you are completely new to programming, and wish to understand how these piece
 
 ## Installation
 
-Installation of the boilerplate has two prerequisites: Node.js / NPM and MongoDB. The instructions for these are detailed below, followed by installation instructions for Clementine.js.
+Installation of the boilerplate has three prerequisites: Node.js / NPM, MongoDB and Yeoman. The instructions for these are detailed below, followed by installation instructions for Clementine.js.
 
 ### Node.js & NPM
 
@@ -63,6 +63,10 @@ $ brew install node
 
 MongoDB has great installation instructutions for MAC OSX, Windows and Linux. [See this page.](http://docs.mongodb.org/manual/installation/)
 
+### Yeoman
+
+TBC
+
 ### Clementine.js
 
 TBD
@@ -89,6 +93,10 @@ Complete documentation can be [found here](http://johnstonbl01.github.io/clement
 ### Tutorial
 
 You can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://johnstonbl01.github.io/clementinejs/tutorial/tutorial.html).
+
+## Features
+
+TBC
 
 ## License
 
