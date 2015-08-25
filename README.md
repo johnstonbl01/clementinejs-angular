@@ -1,8 +1,6 @@
-### Beginner Boilerplate
+# Clementine.js Beginner Boilerplate
 
-[Clementine.js Standard Repo](https://github.com/johnstonbl01/clementinejs) | [Clementine.js Bare Repo](https://github.com/johnstonbl01/clementinejs-bare) | [Clementine.js Beginner Repo](https://github.com/johnstonbl01/clementinejs-beginner)
-
-#### About
+## Overview
 
 The beginner version of Clementine.js is meant for those that are new to coding. This is a stripped down version of the boilerplate with fewer featured libaries, fully commented code and a tutorial.
 
@@ -27,15 +25,17 @@ The ubiquity of JavaScript adds to its appeal, and is also a reason for the popu
 
 If you are completely new to programming, and wish to understand how these pieces fit together, there is a tutorial included in this beginner version that will walk you through creating this demo application one step at a time.
 
-#### Documentation
+## Versions
 
-Full documentation about the beginner version of the Clementine.js boilerplate [can be found here](http://johnstonbl01.github.io/clementinejs). 
+- [Standard](https://github.com/johnstonbl01/clementinejs): A MEAN stack boilerplate -- this version has the most "bells and whistles."
+- [Bare](https://github.com/johnstonbl01/clementinejs-bare): A stripped down version of the boilerplate for quick prototyping
+- [FCC](https://github.com/johnstonbl01/clementinejs-fcc): An extension of the beginner version that includes authentication & authorization
 
-#### Installation
+## Installation
 
 Installation of the boilerplate has two prerequisites: Node.js / NPM and MongoDB. The instructions for these are detailed below, followed by installation instructions for Clementine.js.
 
-##### Node.js & NPM
+### Node.js & NPM
 
 _Note:_ The Node insallation installs both Node & NPM.
 
@@ -56,23 +56,18 @@ _Option 2_ - Install via LinuxBrew
 
 First, ensure [LinuxBrew](http://brew.sh/linuxbrew/) is installed. Then, enter the below into the Linux terminal:
 ```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+$ brew install node
 ```
 
-##### MongoDB
+### MongoDB
 
 MongoDB has great installation instructutions for MAC OSX, Windows and Linux. [See this page.](http://docs.mongodb.org/manual/installation/)
 
-##### Clementine.js
+### Clementine.js
 
-To install the boilerplate, first create a new directory for your project and cd into that directory from the terminal. Then type:
+TBD
 
-```bash
-$ npm install clementinejs-beginner
-$ cd clementinejs-beginner
-```
-
-##### Starting the App
+### Starting the App
 
 To start the app, make sure you're in the project directory and type `node server.js` into the terminal. This will start the Node server and connect to MongoDB.
 
@@ -83,7 +78,15 @@ Node.js listening on port 3000...
 ```
 Next, open your browser and enter `http://localhost:3000/`. Congrats, you're up and running!
 
-#### Tutorial
+## Contributing
+
+TBD
+
+## Documentation
+
+Complete documentation can be [found here](http://johnstonbl01.github.io/clementinejs).
+
+### Tutorial
 
 You can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://johnstonbl01.github.io/clementinejs/tutorial/tutorial.html).
 
