@@ -77,7 +77,15 @@ Note that it should be installed globally.
 
 ### Clementine.js
 
-TBD
+Clementine.js is easy to setup in the project directory of your choice! In the terminal:
+
+```bash
+$ mkdir your-project
+$ cd your-project
+$ yo clementinejs:beginner
+```
+
+It's that easy!
 
 ### Starting the App
 
@@ -92,7 +100,7 @@ Next, open your browser and enter `http://localhost:3000/`. Congrats, you're up 
 
 ## Contributing
 
-TBD
+This is an open-source project, and contributions are always welcome! To see ways to contribute, please review the [contribution guidelines](http://johnstonbl01.github.io/clementinejs/developers/contributing.html).
 
 ## Documentation
 
