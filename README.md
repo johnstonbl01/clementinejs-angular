@@ -1,103 +1,59 @@
-# Clementine.js Beginner Boilerplate
+# Clementine.js Angular Boilerplate
 
-**Note**: Clementine.js is currently being transitioned to a Yeoman generator and has not yet been published. The installation steps below will not work at this time.
+[![Join the chat at https://gitter.im/johnstonbl01/clementinejs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/johnstonbl01/clementinejs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Overview
 
-The beginner version of Clementine.js is meant for those that are new to coding. This is a stripped down version of the boilerplate with fewer featured libaries, fully commented code and a tutorial.
+Clementine.js is a lightweight boilerplate for fullstack JavaScript development which utilizes MongoDB, Express and Node.js. Clementine.js errs on the side of transparency and simplicity as an alternative to more complex boilerplates.
 
-When I first began learning to code, I wish something like this boilerplate existed. There are several tutorials and guides out there that demonstrate functionality of a single part of the MEAN stack, but many of them provide too much detail or functionality too quickly for a beginner.
-
-The beginner version of Clementine.js aims to alleviate some of these issues by providing a simpler, stream-lined experience.
-
-The following features are absent from this version of the boilerplate:
-
-- Jade
-- Mongoose
-- Gulp
-- Sass
-- Bower
-- Angular custom directive example
-
-I believe that the MEAN stack is a great place for new developers to begin learning. Why? Using this stack, a novice can gain exposure to the entire stack without having to learn another programming langugae. Eventually, it will be useful to pick up additional languages (i.e. SQL), but in the beginning it's really appealing to learn the ropes using a single language.
-
-Also - JavaScript is awesome!
-
-The ubiquity of JavaScript adds to its appeal, and is also a reason for the popularity of the MEAN stack. Each of the platforms and frameworks included in the MEAN stack use JavaScript only. It's easy to see the appeal, and the ease of standing up a new project using this stack makes for an additional bonus.
-
-If you are completely new to programming, and wish to understand how these pieces fit together, there is a tutorial included in this beginner version that will walk you through creating this demo application one step at a time.
+The Angular boilerplate is a slightly modified version of the standard boilerplate which integrates Angular functionality.
 
 ## Versions
 
-- [Standard](https://github.com/johnstonbl01/clementinejs): A MEAN stack boilerplate -- this version has the most "bells and whistles."
-- [Bare](https://github.com/johnstonbl01/clementinejs-bare): A stripped down version of the boilerplate for quick prototyping
-- [FCC](https://github.com/johnstonbl01/clementinejs-fcc): An extension of the beginner version that includes authentication & authorization
+- [**Standard**](https://github.com/johnstonbl01/clementinejs): the simplest version of Clementine.js. Intended for those who wish for the smallest and least intrusive footprint OR to implement features on their own.
+- **Angular** (this version): a slightly more complex version of the same application. This version employs the use of AngularJS as the front-end framework.
+- [**Free Code Camp (FCC)**](https://github.com/johnstonbl01/clementinejs-fcc): A modified version of the standard boilerplate that is intended for use with the [Free Code Camp](http://freecodecamp.com/) curriculum.
 
-## Installation
+## Quick Start Guide
 
-Installation of the boilerplate has three prerequisites: Node.js / NPM, MongoDB and Yeoman. The instructions for these are detailed below, followed by installation instructions for Clementine.js.
+### Prerequisites
 
-### Node.js & NPM
+In order to use Clementine.js, you must have the following installed:
 
-_Note:_ The Node insallation installs both Node & NPM.
+- [Node.js](https://nodejs.org/)
+- [NPM](https://nodejs.org/)
+- [MongoDB](http://www.mongodb.org/)
+- [Yeoman](http://yeoman.io/) (optional)
 
-**MAC OSX & Windows**
+### Installation & Startup
 
-Head to the [Node.js install page](https://nodejs.org/download/). Download the appropriate file follow the installation instructions.
+There are 2 ways to install Clementine.js:
 
-**Linux**
+- Clone the GitHub Repository
+- Install via Yeoman Generator
 
-_Option 1_ - Install via PPA
-```
-$ sudo add-apt-repository ppa:chris-lea/node.js
-$ sudo apt-get update
-$ sudo apt-get install nodejs
-```
+Both options are similar, and a matter of preference.
 
-_Option 2_ - Install via LinuxBrew
-
-First, ensure [LinuxBrew](http://brew.sh/linuxbrew/) is installed. Then, enter the below into the Linux terminal:
-```
-$ brew install node
-```
-
-### MongoDB
-
-MongoDB has great installation instructutions for MAC OSX, Windows and Linux. [See this page.](http://docs.mongodb.org/manual/installation/)
-
-### Yeoman
-
-Yeoman is simple to install:
+**Option 1 - Clone GitHub Repo**
 
 ```bash
-$ npm install -g yo
+$ git clone https://github.com/johnstonbl01/clementinejs-angular.git your-project
 ```
 
-Note that it should be installed globally.
+This will install the Clementine.js components into the `your-project` directory.
 
-### Clementine.js
-
-Clementine.js is easy to setup in the project directory of your choice! In the terminal:
+**Option 2 - Yeoman Generator**
 
 ```bash
 $ npm install -g generator-clementinejs
 $ mkdir your-project
 $ cd your-project
-$ yo clementinejs:beginner
+$ yo clementinejs:angular
 ```
 
-It's that easy!
+Note: `generator-clementinejs` must be installed globally.
 
-### Starting the App
-
-To start the app, make sure you're in the project directory and type `node server.js` into the terminal. This will start the Node server and connect to MongoDB.
-
-You should the following messages within the terminal window:
-```
-MongoDB successfully connected on port 27017.
-Node.js listening on port 3000...
-```
-Next, open your browser and enter `http://localhost:3000/`. Congrats, you're up and running!
+To start the application, browse to the project directory and type: `$ node server` into the terminal window. Point a browser to `localhost:3000` and you're up and running!
 
 ## Contributing
 
@@ -109,21 +65,18 @@ Complete documentation can be [found here](http://johnstonbl01.github.io/clement
 
 ### Tutorial
 
-You can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://johnstonbl01.github.io/clementinejs/tutorial/tutorial.html).
+You can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://johnstonbl01.github.io/clementinejs/tutorials/tutorial-beginner.html).
 
 ## Features
 
-| Features 				| Beginner 	| Standard 	| Bare 		| FCC 		|
-|:---------				|:--------:	|:--------:	|:---------:|:---------:|
-| Commented Code		| _Yes_ 	| _No_ 		| _No_		| _No_		|
-| Example Controller 	| _Yes_ 	| _Yes_		| _Yes_		| _Yes_		|
-| Example Directive 	| _No_ 		| _Yes_		| _No_		| _No_		|
-| Jade					| _No_ 		| _Yes_ 	| _Yes_	 	| _No_		|
-| Mongoose				| _No_		| _Yes_		| _Yes_		| _Yes_		|
-| Gulp				 	| _No_		| _Yes_		| _Yes_		| _No_		|
-| Sass					| _No_		| _Yes_		| _Yes_		| _No_		|
-| Bower					| _Yes_		| _Yes_		| _Yes_		| _No_		|
-| Authentication		| _No_		| _No_		| _No_		| _Yes_		|
+| Features           | Standard  | Angular   | FCC       |
+|:---------          |:--------: |:--------: |:---------:|
+| MongoDB            | _Yes_     | _Yes_     | _Yes_     |
+| Express            | _Yes_     | _Yes_     | _Yes_     |
+| AngularJS (1.x)    | _No_      | _Yes_     | _No_      |
+| Node.js            | _Yes_     | _Yes_     | _Yes_     |
+| Passport           | _No_      | _No_      | _Yes_     |
+| Mongoose           | _No_      | _No_      | _Yes_     |
 
 ## License
 

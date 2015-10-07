@@ -1,14 +1,14 @@
 {
-  "name": "clementinejs-beginner",
+  "name": "clementinejs-angular",
   "version": "1.0.2",
-  "description": "A beginner-level MEAN stack boilerplate.",
+  "description": "The elegant and lightweight boilerplate for full stack JavaScript",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnstonbl01/clementinejs-beginner"
+    "url": "git+https://github.com/johnstonbl01/clementinejs-angular"
   },
   "homepage": "http://johnstonbl01.github.io/clementinejs/",
-  "bugs": "https://github.com/johnstonbl01/clementinejs-beginner/issues",
+  "bugs": "https://github.com/johnstonbl01/clementinejs-angular/issues",
   "keywords": [
     "MEAN",
     "MongoDB",
