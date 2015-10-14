@@ -57,15 +57,15 @@ To start the application, browse to the project directory and type: `$ node serv
 
 ## Contributing
 
-This is an open-source project, and contributions are always welcome! To see ways to contribute, please review the [contribution guidelines](http://johnstonbl01.github.io/clementinejs/developers/contributing.html).
+This is an open-source project, and contributions are always welcome! To see ways to contribute, please review the [contribution guidelines](http://www.clementinejs.com/developers/contributing.html).
 
 ## Documentation
 
-Complete documentation can be [found here](http://johnstonbl01.github.io/clementinejs).
+Complete documentation can be [found here](http://www.clementinejs.com).
 
 ### Tutorial
 
-You can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://johnstonbl01.github.io/clementinejs/tutorials/tutorial-beginner.html).
+You can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://www.clementinejs.com/tutorials/tutorial-angular.html).
 
 ## Features
 
